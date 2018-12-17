@@ -1,4 +1,4 @@
-*Application Instructions*
+#Application Instructions
 
 Welcome to the suite of user utilities. These were created to function simply with three main goals:
 1) Create Users
@@ -18,7 +18,7 @@ following command for each application(without quotation) then press enter:
 "sudo chmod u+x ListUser.py"
 
 
-*AddUser.py*
+#AddUser.py
 To run the application, type in the command below(without quotation) then press enter:
 "sudo ./AddUser.py"
 You may be prompted for your password, this is necessary to proceed with a user creation. 
@@ -29,7 +29,7 @@ Three steps within the application will allow you to create the user:
 The user has now been created using the information you had provided. If something was entered incorrectly, please inform
 your supervisor or systems administrator.
 
-*RemUser.py*
+#RemUser.py
 To run the application, type in the command below(without quotation) then press enter:
 "sudo ./RemUser.py"
 You may be prompted for your password, this is necessary to proceed with a user removal. 
@@ -38,7 +38,7 @@ One step within the application will allow you to remove a user:
 The user has now been removed using the information you had provided. If something was entered incorrectly, please inform
 your supervisor or systems administrator.
 
-*ListUser.py*
+#ListUser.py
 To run the application, type in the command below(without quotation) then press enter:
 "sudo ./ListUser.py"
 You may be prompted for your password, this is necessary to proceed with a listing the users. 
