@@ -1,0 +1,7 @@
+---
+- hosts: "localhost"
+  connection: "local"
+  tasks:
+  - name: List Local Users
+    shell: cat /etc/passwd >> ~/Desktop/ListOfUsers.txt
+...
