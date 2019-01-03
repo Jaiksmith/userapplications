@@ -4,6 +4,7 @@ Welcome to the Ansible suite of user utilities. These were created to function s
 
     Create Users
     Remove Users
+    List Users
 
 Each application can be run from a Command Line/Terminal. Please open your Command Line/Terminal to begin. If you need assistance with locating your Command Line/Terminal applciation, please reach out to your supervisor or the application developer.
 
@@ -34,3 +35,8 @@ RemUser.yml: Prior to running you will need to complete one tasks.
 To run the application, type in the command below(without quotation) then press enter: 
      "sudo ansible-playbook RemUser.yml"
      You may be prompted for your password, this is necessary to proceed with a user removal.
+     
+ListUsers.yml: This will generate a list of users and send it to the desktop in a text file.
+To run the application, type in the command below(without quotation) then press enter: 
+     "sudo ansible-playbook ListmUsers.yml"
+     You can find the generated file on your desktop listed as "ListOfUsers.txt"
