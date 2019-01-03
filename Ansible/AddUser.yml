@@ -1,0 +1,20 @@
+---
+- hosts: "localhost"
+  connection: "local"
+  vars:
+    users:
+#EDIT USERNAME BELOW
+    - "Grace"
+  tasks:
+  - name: "Create user accounts"
+    user:
+      name: "{{ item }}"
+#EDIT COMMENT BELOW
+      comment: "Grace LastName"
+    with_items: "{{ users }}"
+  - name: "Add authorized keys"
+    authorized_key:
+      user: "{{ item }}"
+      key: "{{ lookup('file', 'keys/'+ item + '.key.pub') }}"
+    with_items: "{{ users }}"
+...

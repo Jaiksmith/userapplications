@@ -1,0 +1,10 @@
+---
+- hosts: "localhost"
+  connection: "local"
+  tasks:
+  - name: Remove specified user
+    user:
+      name: "Grace"
+      state: absent
+      remove: yes
+...
